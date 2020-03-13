@@ -14,13 +14,14 @@
           <div class="panel__visible">
             <div class="panel__content">
               <h1 class="panel__title">Sign Up</h1>
-              <form class="form">
+              <form class="form" action="" method="post"></form>
                 <label class="form__label" for="fullname">Full Name</label>
                 <input
                   class="form__input"
                   type="text"
                   id="fullname"
                   name="fullname"
+                  required
                 />
 
                 <label class="form__label" for="username">Username</label>
@@ -29,6 +30,7 @@
                   type="text"
                   id="username"
                   name="username"
+                  required
                 />
                 <label class="form__label" for="password">Password</label>
                 <input
@@ -36,13 +38,14 @@
                   type="password"
                   id="password"
                   name="password"
+                  required
                 />
-                <button class="form__btn" type="button" value="Submit">
+                <button class="form__btn" type="submit" value="Submit">
                   Submit
                 </button>
 
                 <button class="form__toggle js-formToggle" type="button">
-                  Or, Sign In
+                  Sign In
                 </button>
               </form>
             </div>
@@ -52,13 +55,14 @@
               class="panel__content panel__content--overlay js-panel__content "
             >
               <h1 class="panel__title">Sign In</h1>
-              <form class="form">
+              <form class="form" action="" method="post">
                 <label class="form__label" for="usernameIn">Username</label>
                 <input
                   class="form__input"
                   type="text"
                   id="usernameIn"
                   name="usernameIn"
+                  required
                 />
 
                 <label class="form__label" for="passwordIn">Password</label>
@@ -67,13 +71,14 @@
                   type="password"
                   id="passwordIn"
                   name="passwordIn"
+                  required
                 />
-                <button class="form__btn" type="button" value="Submit">
+                <button class="form__btn" type="submit" value="Submit">
                   Sign In
                 </button>
                 <br />
                 <button class="form__toggle js-formToggle" type="button">
-                  Or, Sign Up
+                  Sign Up
                 </button>
               </form>
             </div>
@@ -81,7 +86,7 @@
           <div class="panel__back js-imageAnimate">
             <img
               class="panel__img"
-              src="https://images.unsplash.com/photo-1580111161432-64ca21daa33d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
+              src="https://images.unsplash.com/photo-1477768663691-75454fd8e870?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=800"
             />
           </div>
         </div>
